@@ -143,7 +143,7 @@ STATICFILES_DIRS = [
 
 EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25
-EMAIL_HOST_USER = "boteggsy@sina.com"
-EMAIL_HOST_PASSWORD = "Pumpkin540"
+EMAIL_HOST_USER = "***@sina.com"
+EMAIL_HOST_PASSWORD = "*****"
 EMAIL_USE_TLS = False
-EMAIL_FROM = "boteggsy@sina.com"
+EMAIL_FROM = "***@sina.com"
