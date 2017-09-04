@@ -26,7 +26,7 @@ class UserMessageAdmin(object):
 
 class CourseCommentsAdmin(object):
     list_display = ['user', 'course', 'comments', 'add_time']
-    search_fields = ['user', 'course', 'comments']
+    search_fields = ['user__nick_name', 'course__name', 'comments']
     list_filter = ['user', 'course', 'comments', 'add_time']
 
 
